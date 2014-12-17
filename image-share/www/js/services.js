@@ -1,0 +1,1 @@
+angular.module('com.htmlxprs.imageShare.services',[]).value('USER',{}).value('SOCKET_URL','http://149.31.134.62:8000');

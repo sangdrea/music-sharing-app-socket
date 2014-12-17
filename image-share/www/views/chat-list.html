@@ -1,0 +1,10 @@
+<div class="list">
+    <a class="item" href="#" ng-repeat="message in messages">
+        <h2>{{message.sender}}</h2>
+        <p>{{message.trackName}}</p>
+        <!--<img ng-src="{{message.image}}">-->
+        <audio controls="controls" autobuffer="autobuffer"> <!--autoplay="autoplay"-->
+        	<source ng-src="{{trustSrc(message.audio)}}"/>
+        </audio>
+    </a>
+</div>

@@ -1,0 +1,12 @@
+.item img{
+    max-width: 100%;
+    max-height: 200px;
+}
+input[type=file]{
+    height:0;
+    overflow:auto;
+}
+.uploadButton{
+    margin-top: -40px;
+    color:black;
+}
